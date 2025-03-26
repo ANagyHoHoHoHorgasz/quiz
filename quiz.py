@@ -64,5 +64,7 @@ for i in range(4):
             print("Hibas")
     elif melyikkerdes == "quit":
         break
-print(f"Az eredmenyed: {pont}")
+    else:
+        print("Nincs ilyen kerdes")
+print(f"Az eredmenyed: {pont} pont")
 print(f"A teljesitmenyed: {szazalek}%")
